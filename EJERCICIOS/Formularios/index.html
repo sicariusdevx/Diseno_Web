@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Introduce formularios en el documento html -->
+    <!-- Los id son leídos de arriba hacia abajo. Por tanto si yo coloco dos id iguales prevaleecerá el último -->
+    <h3>Tipo texto</h3>
+    <form action="https://formspree.io/f/maykjwgv" method="POST">
+        <!-- fieldset permite organizar en grupos  los campos de un formulario. Debe contener todos los elementos agrupados -->
+        <fieldset>
+            <!-- legend es el título mostrado en la caja del fieldset -->
+            <legend>Formulario de registro</legend>
+            <label for="name_input">Nombre</label>
+            <!-- maxlenght es la cantidad total de caracteres 
+            size es el tamaño de la caja
+            recuerde que el id debe ser el mismo de su label para que estén relacionados-->
+            <input id="name_input" type="text" name="name" maxlength="10" placeholder="Nombres" size="50"><br>
+            Correo: <input type="email" name="mail" required><br>
+            Teléfono: <input type="tel" name="phone" placeholder="(55)555-55555" min="10" max="10"><br>
+            Contraseña: <input type="password" name="pass"><br>
+            <!-- listas de selección, observe que el name es el mismo para los tres elementos -->
+            <label for="man">Hombre</label>
+            <input type="radio" id="man" name="gender" value="man">
+            <label for="woman">Mujer</label>
+            <input type="radio" id="woman" name="gender" value="woman">
+            <label for="other">Otro</label>
+            <input type="radio" id="other" name="gender" value="other"><br>
+            <!-- Listas de selección -->
+            <select name="scholarship" id="scholarship">
+                <option value="kinder">Preescolar</option>
+                <option value="school">Primaria</option>
+                <option value="secondary_school">Secundaria</option>
+                <option value="high_school">Media Superior</option>
+                <option value="grade">Licenciatura</option>
+                <option value="master">Posgrado</option>
+            </select><br>
+            <!-- subir archivos al formulario -->
+            <input type="file" ></input><br>
+            <!-- introducir fecha, value es el valor de facto que muestra el campo -->
+            <input type="date" name="date" value="2022-01-01" min="1920-01-01" max="2006-01-01"></input><br>
+            <!-- Textarea permite introducir comentarios en el formulario a través de una caja de texto variable -->
+            <input type="textarea" rows="3" columns="20" placeholder="Escribe tus comentarios aquí..."><br>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Escribe tus comentarios aquí"></textarea><br>
+            <!-- botones para enviar el formulario o limpiarlo -->
+            <!-- al enviar los archivos la dirección a la que se apunta depende del valor de action en el form 
+            si action es default entonces lo envía a la misma página
+            action debe apuntar a un archivo donde se almacenan y se procesan posteriormente
+            utilizaremos FORMSPREE únicamente para verificar los archivos -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>
+</body>
+</html>
