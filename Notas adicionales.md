@@ -31,11 +31,38 @@ revisar nuevas tareas
 
 # Sintaxis 
 
-'''
+```
 '# headers
 '>  quote
-'''' code
+```` code
 '* italics
 '* *   bold
 '' simple quote
-'''
+```
+
+# Estructuras web
+
+Secuencial o lineal
+```
+home --> pag1 --> pag2 --> pag n
+```
+Jerárquica
+```
+     /pag1
+home<
+     \pag2
+```
+Matriz o Radial
+```
+              pag3
+              ^
+              |
+pag1  <-->  home <--> pag2
+```
+Estructura radial
+```
+      pag3
+    /     \
+pag1 ---- pag2
+```
+
