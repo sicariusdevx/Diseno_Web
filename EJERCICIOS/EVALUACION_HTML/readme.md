@@ -7,15 +7,37 @@ Preguntas:
 
 1. ¿Qué es el hipertexto? (valor 1.0)
 
+Es texto que no se constriñe a una estructura linear y sucesiva. Contiene enlaces a otros textos conocidos como links. Fuente: https://www.w3.org/WhatIs.html
+
 2. ¿Qué es la hipermedia? (valor 1.0)
+
+Es un conjunto de textos que utiliza elementos gráficos y multimedia para enriquecer la información disponible.
 
 3. ¿Qué características tiene un lenguaje de etiquetas? (valor 1.0)
 
+Nos permite estructurar un texto y su formato mediante el uso de palabras reservadas conocidas como etiquetas y que indican al programa las características de dicho texto.
+
 4. ¿Cuáles son las ventajas que introduce HTML5? (valor 1.0)
+
+-Características semánticas
+
+-Contenido multimedia
+
+-herramientas para formularios
+
+-arquitectura de aplicaciones
 
 5. ¿Cuál es la función del motor de renderizado de un navegador web? (valor 1.0)
 
+Obtener el hipertexto e información que llega desde internet y traducirlas en texto, imágenes y contenido en general visible para el usuario.
+
 6. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
+
+Editores de texto. se utiliza para escribir, editar y leer código o lenguaje de marcado con el que se elaboran las páginas web.
+
+Entorno de desarrollo integrado. es un editor de texto que incorpora herramientas para la edición de código o lenguaje de marcado. Acelera mucho los procesos de escritura ya que resalta errores o ambiguedades en el documento, incorpora herramientas para corregir, refinar o traducir los lenguajes.
+
+Programa de dibujo o diseño. Permite generar las imágenes y elementos gráficos que incorporaremos en nuestras páginas web.
 
 ## 2. HERRAMIENTAS PARA LA CREACIÓN DE PÁGINAS WEB
 
@@ -26,20 +48,34 @@ Preguntas:
 
 1. Describe al menos 5 características básicas de un editor de texto. (valor 1.0)
 
+● cortar, copiar y pegar,
+● Dar formato a un texto,
+● buscar y reemplazar,
+● Deshacer y Rehacer.
+● guardar el documento
+
 2. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+
+Wordpad, Bloc de Notas, Microsoft Word
 
 3. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
 
+En general suelen ser de poco tamaño, no siendo más grandes de 300KB
+
 4. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
 
+*.htm, *.html
+
 5. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
+
+*.png, *.jpg, *.gif
 
 6. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
 distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacionados
 a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
-        a) Cierto
+        a) Cierto  <=
         b) Falso
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
@@ -51,10 +87,8 @@ Preguntas:
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
 
 2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
-a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
-etiqueta
 
-        a) Las etiquetas HTML semánticas dan un significado extra al contenido de la etiqueta
+        a) Las etiquetas HTML semánticas dan un significado extra al contenido de la etiqueta   <=
         b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
         contenido de la página
         c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
