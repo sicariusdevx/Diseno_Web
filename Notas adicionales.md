@@ -29,6 +29,8 @@ revisar nuevas tareas
 
 Íconos e imagenes de redes sociales y servicios: https://www.flaticon.es/
 
+examinar colores de una imagen https://imagecolorpicker.com 
+
 # Sintaxis 
 
 ```
