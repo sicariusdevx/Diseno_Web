@@ -68,3 +68,14 @@ Estructura radial
 pag1 ---- pag2
 ```
 
+#Resoluciones y responsividad
+
+https://yesviz.com/article.php
+
+https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design
+
+#Herramientas de diseño de sitios web
+
+balsamiq.cloud
+
+figma.com
